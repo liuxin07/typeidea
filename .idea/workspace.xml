@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e5b4abe-95bf-405c-b557-da6354fef35d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +19,38 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+            <state relative-caret-position="165">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="develop.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="develop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/develop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="23" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +58,20 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typeidea/config/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +85,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/typeidea/manage.py" />
-        <option value="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/settings/develop.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/typeidea/blog/models.py" />
+        <option value="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" />
+        <option value="$PROJECT_DIR$/typeidea/config/models.py" />
       </list>
     </option>
   </component>
@@ -88,14 +127,7 @@
               <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,24 +213,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/manage.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/develop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/config/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

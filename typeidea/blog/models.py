@@ -36,6 +36,11 @@ class Tag(models.Model):
 
 
 class Post(models.Model):
+    STATUS_ITEMS = (
+        (1, "正常"),
+        (2, "删除"),
+        (3, "草稿"),
+    )
     title = models.CharField(max_length=50, verbose_name="标题")
     desc = models.CharField(max_length=1024, blank=True, verbose_name="摘要")
     content = models.CharField(verbose_name="正文", help_text="正文必须为MarkDown格式")
