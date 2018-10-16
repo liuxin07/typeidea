@@ -5,7 +5,8 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render
 from django.http import Http404
 
-from .models import Post, Tag
+from .models import Post, Tag, Category
+from config.models import SideBar
 
 def post_list(request, category_id=None, tag_id=None):
     queryset = Post.objects.all()
@@ -43,8 +44,21 @@ def post_list(request, category_id=None, tag_id=None):
     except:
         posts = paginator.page(paginator.num_pages)
 
+
+    categories = Category.objects.filter(status=1)
+
+    nav_cates = []
+    cates = []
+    for cate in categories:
+        if cate.is_nav:
+            nav_cates.append(cate)
+        else:
+            cates.append(cate)
+
     context = {
         'posts': posts,
+        'nav_cates': nav_cates,
+        'cates': cates,
     }
     return render(request, 'blog/list.html', context=context)
 
